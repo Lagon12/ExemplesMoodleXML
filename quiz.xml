@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<quiz>
+
+	<question type="numerical">
+		<name>
+			<text>Q1</text>
+		</name>
+		<questiontext format="html">
+			<text>Quel est mon âge ?</text>
+		</questiontext>
+			 
+		 <answer fraction="100">
+			 <text>19</text>
+			 <feedback><text>Et oui je susi jeune !</text></feedback>
+		 </answer>
+	</question>	  		 
+ 
+	<question type="shortanswer">
+		<name>
+			<text>Q2</text>
+		</name>
+		<questiontext format="html">
+			<text>Quel est mon prénom ?</text>
+		</questiontext>
+		
+		<answer fraction="100">
+			<text>Alexandre</text>
+			<feedback><text>Tu me connais ?!</text></feedback>
+		</answer>
+	</question>
+ 
+	<question type="truefalse">
+		<name>
+			<text>Q3</text>
+		</name>
+		<questiontext format="html">
+			<text>J'aime la viandes ?</text>
+		</questiontext>
+		
+		<answer fraction="100">
+			<text>true</text>
+			<feedback><text>VRAI</text></feedback>
+		</answer>
+		<answer fraction="0">
+			<text>false</text>
+			<feedback><text>FAUX</text></feedback>
+		</answer>
+	</question>
+  
+</quiz>
